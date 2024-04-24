@@ -1,0 +1,4 @@
+agent/target/agent-0.0.1-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
+apiend/target/apiend-0.0.1-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
+backend/target/backend-0.0.1-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
+xxl-job-executors/target/xxl-job-executors-0.0.1-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
