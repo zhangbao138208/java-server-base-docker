@@ -1,0 +1,17 @@
+HELP.md
+### VS Code ###
+.vscode/
+.idea/*
+/.idea/
+dao/target/
+dao/dao.iml
+plat/target/
+service/target/
+tools/target/
+utils/target/
+/plat/plat.iml
+/service/service.iml
+/tools/tools.iml
+/dao/target/
+*/.DS_Store
+.DS_Store

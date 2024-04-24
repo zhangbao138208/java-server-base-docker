@@ -1,0 +1,34 @@
+spring:
+  profiles:
+    active: local
+  transaction:
+    isolation: READ_COMMITTED
+  datasource:
+    druid:
+      default-transaction-isolation: 1
+aj:
+  captcha:
+    water-mark:
+
+snowflake:
+  workerId: 2
+  datacenterId: 2
+
+# Logback根目录
+# loghome: /tmp/logs/777-Games/apiend
+
+app:
+ # id: filbet-java-local
+  id: filbet-java-local                                      # 应用唯一标识
+  # 应用唯一标识
+apollo:
+  config-service: http://16.162.51.186:8080
+  #  meta: http://18.166.27.94:8080
+  #  cache-dir: /opt/data/some-cache-dir             # 配置缓存路径
+  autoUpdateInjectedSpringProperties: true         # 是否开启 Spring 参数自动更新
+  bootstrap:
+    enabled: true                                  # 是否开启 Apollo
+    namespaces: apiend.yml                     # 设置命名空间
+    eagerLoad:
+      enabled: true
+  datacenterId: 1

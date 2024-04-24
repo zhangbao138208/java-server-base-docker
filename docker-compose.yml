@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  api-service:
+    image: sports-api:latest
+    container_name: sports-api
+    ports:
+      - 8081:8081
+    command:
+      - "sports-api:latest"
