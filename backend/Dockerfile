@@ -1,6 +1,6 @@
 ARG DOCKER_HUB
 ARG BASE_VERSION
-FROM ${DOCKER_HUB}/java-server-base:a86-${BASE_VERSION} as builder
+FROM ${DOCKER_HUB}/java-server-base:${BASE_VERSION} as builder
 
 FROM openjdk:11
 MAINTAINER David David@admin.com
